@@ -50,7 +50,7 @@ A Web app with various NLP features such as:
 ''')
 st.markdown('---')
 
-# Sidebar selectbox for user options with unique key
+
 options = ("What is NLP?", "Sentiment Analysis", "Text Summarization")
 selected_option = st.sidebar.selectbox("How can we assist you?", options, key="main_selectbox")
 
@@ -83,4 +83,4 @@ elif selected_option == "Text Summarization":
     if text_input:
         st.write(f"Text to summarize: {text_input}")
 
-# Add additional elif blocks for other options as needed
+
